@@ -9,7 +9,8 @@ function CourseForm() {
         {/* Online Course Form */}
         <div className="w-full md:w-1/2 bg-gray-800 p-8 rounded-lg shadow-lg text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Online Course <span className="text-yellow-500">For Free</span>
+            Register Free for{" "}
+            <span className="text-yellow-500">Online Course</span>
           </h2>
           <p className="mb-8">
             Travelled down the road and back again your heart is true you're a
@@ -46,7 +47,7 @@ function CourseForm() {
         {/* Countdown Timer */}
         <div className="w-full md:w-1/2 bg-yellow-500 p-8 rounded-lg shadow-lg text-black text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Next Set of Free Online Courses
+            Next Set of Online Courses
           </h2>
           <p className="mb-6 text-lg">Launching Soon</p>
           <CountdownTimer targetDate={targetDate} />

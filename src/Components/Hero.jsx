@@ -23,7 +23,6 @@ const Hero = () => {
             Learn More
           </button>
         </div>
-        {/* <Features /> */}
       </div>
     </section>
   );
